@@ -1,0 +1,25 @@
+{
+  "name": "fe33-onl-activebox-elena-kazachenko",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelenKazachenko/FE33-onl-ActiveBox-Elena-Kazachenko.git"
+  },
+  "author": "Elena Kazachenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelenKazachenko/FE33-onl-ActiveBox-Elena-Kazachenko/issues"
+  },
+  "homepage": "https://github.com/HelenKazachenko/FE33-onl-ActiveBox-Elena-Kazachenko#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}
