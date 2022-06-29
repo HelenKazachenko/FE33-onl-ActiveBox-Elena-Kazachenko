@@ -6,13 +6,20 @@
     text-decoration: none;
 }
 
+html {
+    font-family: 'Raleway', 'Cardo', serif;
+}
+
 .container {
     max-width: 1170px;
     margin: auto;
     position: relative;
+    z-index: 2;
+    padding: 0 15px
 }
 
 @import "../scss/variables.scss";
+@import "../scss/header.scss";
 
 section {
     padding: 114px 0;
