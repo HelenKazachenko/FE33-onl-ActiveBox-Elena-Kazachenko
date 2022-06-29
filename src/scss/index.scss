@@ -18,8 +18,10 @@ html {
     padding: 0 15px
 }
 
+@import "../scss/cdn.scss";
 @import "../scss/variables.scss";
 @import "../scss/header.scss";
+@import "../scss/cards.scss";
 
 section {
     padding: 114px 0;
