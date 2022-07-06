@@ -1,0 +1,76 @@
+.employees_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+.employees_card {
+    width: 255px;
+    margin-bottom: 50px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.employees_card_img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.employees_info {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.emloyee_name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: $_black;
+}
+.employees_position {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: $_coral;
+}
+.employee_feedbacK {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: $_gray;
+    margin-bottom: 38px;
+}
+.social_networks_employees {
+    margin: 0 -6px;
+    
+}
+.social_networks {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.fa-brands {
+    border: 1px solid #C6CBCD;
+    padding: 10px;
+    color: #C6CBCD;
+    margin: 0 6px;
+    transition: 0.3s;
+}
+.fa-facebook-f {
+    &:hover {
+        color: #576b95;
+        transform: scale(1.2);
+    }
+}
+.fa-twitter {
+    &:hover {
+        color: rgb(29, 155, 240);
+        transform: scale(1.2);
+    }
+}
+.fa-linkedin {
+    &:hover {
+        color: #0a66c2;
+        transform: scale(1.2);
+    }
+}
