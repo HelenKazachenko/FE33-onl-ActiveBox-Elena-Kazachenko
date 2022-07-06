@@ -1,0 +1,77 @@
+.work {
+    padding: 0;
+}
+.work-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.work__item {
+    border: 1px solid white;
+    width: 25%;
+    max-height: 350px;
+    overflow: hidden;
+    position: relative;
+    @media (max-width: 1170px) {
+        max-height: 240px;
+    }
+    @media (max-width: 980px) {
+        max-height: 200px;
+        
+    }
+    @media (max-width: 620px) {
+        max-height: 180px;
+        width: 50%;
+    }
+    @media (max-width: 450px) {
+        max-height: 160px;
+        width: 50%;
+    }
+    &:hover .work__filter {
+        opacity: 1;
+    }
+    &:active .work__filter {
+        background-color: rgba($_red, $alpha: 0.8);
+    }
+}
+.work_img {
+    width: 100%;
+    height: 100%;
+    // position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+.work__filter {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba($_coral, $alpha: 0.8);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    
+
+}
+.work_title {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 30px;
+    @media (max-width: 980px) {
+        font-size: 18px;
+    }
+}
+.wotk_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    @media (max-width: 980px) {
+        font-size: 14px;
+    }
+}
