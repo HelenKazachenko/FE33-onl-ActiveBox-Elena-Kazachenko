@@ -41,6 +41,14 @@
     padding: 30px;
     border: none;
     margin: auto;
+    transition: 0.2s;
+    &:hover {
+        background-color: $_red;
+        &:active {
+            background-color: $_coral;
+            box-shadow: 4px 4px 30px $_coral;
+        }
+    }
     a {
         color: #fff;
         text-decoration: none;

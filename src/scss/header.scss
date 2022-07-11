@@ -26,8 +26,8 @@
         content: '';
         display: block;
         border-bottom: 1px solid #BABBC5;
-        margin-top: 35px;
         width: 100%;
+        margin: 35px 15px 0;
     }
 }
 .logo {
@@ -67,6 +67,11 @@
         width: 100%;
         padding-bottom: 38px;
         transform: translate(0 100%);
+        transition: 0.2s;
+        &:active {
+            color: $_coral;
+            border-bottom: 3px solid $_coral;
+        }
     }
 }
 .header-burger {
@@ -150,12 +155,20 @@
     padding: 20px 0;
     margin: auto;
     cursor: pointer;
+    transition: 0.2s;
     a {
         color: white;
         font-weight: 900;
         font-size: 24px;
         text-transform: uppercase;
         align-items: center;
+    }
+    &:hover {
+        background-color: $_red;
+        &:active {
+            background-color: $_coral;
+            box-shadow: 4px 4px 30px $_coral
+        }
     }
     @media (max-width: 1170px) {
         width: 313px; 
