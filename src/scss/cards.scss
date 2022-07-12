@@ -10,7 +10,7 @@
 }
 .card-box {
     width: 360px;
-    margin: 0 15px;
+    margin: 0 15px 90px;
     text-align: center;
     @media (max-width: 1170px) {
         width: 315px;
@@ -47,7 +47,6 @@
     font-size: 18px;
     line-height: 21px;
     color: $_gray;
-    margin-bottom: 90px;
     @media (max-width: 1170px) {
         font-size: 14px;
     }
